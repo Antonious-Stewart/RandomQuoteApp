@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background:linear-gradient(45deg, firebrick, skyblue,firebrick)
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.quote-box{
+  width: 60rem;
+  height:30rem;
+  background:#eee;
+  border-radius: 5px;
+  box-shadow: .8rem -.8em 1rem rgba(0, 0, 0, .5);
+  position: relative;
+}
+.quote{
+  font-size: 2.4rem;
+  flex:1;
+}
+.author{
+  font-size: 1.8rem;
+  text-align: right;
+}
+a{
+  display: inline-block;
+  width:10rem;
+}
