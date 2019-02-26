@@ -19,21 +19,33 @@ body{
 }
 .quote-box{
   width: 60rem;
-  height:30rem;
-  background:#eee;
+  height:45rem;
+  background:rgba(238, 238, 238, 0.781);
   border-radius: 5px;
   box-shadow: .8rem -.8em 1rem rgba(0, 0, 0, .5);
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
 }
 .quote{
-  font-size: 2.4rem;
-  flex:1;
+  flex:1 0 100%;
+  font-size: 2.8rem;
+  border-radius: 5px;
+  background:rgba(221, 255, 249, 0.5);
+  height: 20rem;
 }
 .author{
+  flex: 1 0 100%;
   font-size: 1.8rem;
   text-align: right;
+  height: 5rem;
+  border-radius: 5px;
+  background:rgba(221, 255, 249, 0.5);
+  padding-right:1rem;
 }
-a{
+.btn{
   display: inline-block;
-  width:10rem;
+  font-size: 2rem;
+  text-transform: capitalize;
 }
